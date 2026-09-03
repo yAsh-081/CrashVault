@@ -6,8 +6,7 @@
 
 <p align="center">
   <img src="img/crashvault-crash.png"
-       alt="CrashVault crash diagnostics"
-       width="900">
+       alt="CrashVault crash detail showing a native SIGSEGV, source location, fault address, and CPU registers">
 </p>
 
 <p align="center">
