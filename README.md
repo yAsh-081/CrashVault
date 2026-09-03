@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/crashvault-crash-detail.png"
+  <img src="img/crashvault-crash.png"
        alt="CrashVault crash diagnostics"
        width="900">
 </p>
@@ -136,11 +136,10 @@ CrashVault uses SQLite for local persistence. If a suitable system SQLite instal
 ### Clone the Repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/yAsh-081/CrashVault.git
 cd CrashVault
 ```
 
-Replace `<your-repository-url>` with this repository's GitHub URL.
 
 ### Build the Native Components
 
@@ -383,6 +382,10 @@ CrashVault/
 │   ├── src/
 │   └── src-tauri/
 │
+├── img/
+│   ├── crashvault-architecture.png
+│   ├── crashvault-crash.png
+│
 ├── CMakeLists.txt
 ├── .gitignore
 └── README.md
@@ -419,3 +422,13 @@ Current limitations include:
 * AppImage execution under WSL is affected by a WebKitGTK injected-bundle issue, so the direct production Tauri binary is the preferred WSL launch path.
 
 CrashVault is intentionally local-first: crash reports, processed diagnostics, and the SQLite database remain on the local machine.
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+**Author**: Yash Patel
+
+GitHub: https://github.com/yAsh-081
