@@ -1,0 +1,36 @@
+build/
+build-*/
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+*.obj
+*.pdb
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+Testing/
+compile_commands.json
+*.d
+.DS_Store
+Thumbs.db
+
+# CrashVault runtime data
+.crashvault/
+crash_*.raw
+*.db
+
+# Desktop / Node / Rust
+desktop/node_modules/
+desktop/dist/
+desktop/src-tauri/target/
+desktop/src-tauri/binaries/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~

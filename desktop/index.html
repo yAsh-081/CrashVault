@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CrashVault</title>
+    <style>
+      /* Critical: opaque WebKitGTK webview + kill native focus chrome (X overlay) */
+      html,
+      body,
+      #app {
+        background-color: #121418 !important;
+      }
+      *:focus {
+        outline: none !important;
+      }
+      ::-webkit-focus-ring-color {
+        color: transparent !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
